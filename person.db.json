@@ -1,0 +1,11 @@
+{
+  "ids": {
+    "Person": 3
+  },
+  "models": {
+    "Person": {
+      "1": "{\"username\":\"mrc\",\"name\":\"Marco Rotondi\",\"email\":\"rotondi@intre.it\",\"id\":1}",
+      "2": "{\"username\":\"gio\",\"name\":\"Giovanni Alberto\",\"id\":2}"
+    }
+  }
+}

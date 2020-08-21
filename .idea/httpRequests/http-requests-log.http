@@ -1,0 +1,54 @@
+GET http://localhost:3000/person
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-21T054243.200.json
+
+###
+
+GET http://localhost:3000/person/count
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-21T054238.200.json
+
+###
+
+POST http://localhost:3000/person
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "username": "gio",
+  "name": "Giovanni Alberto"
+}
+
+<> 2020-08-21T054231.200.json
+
+###
+
+GET http://localhost:3000/person/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-21T054036.200.json
+
+###
+
+GET http://localhost:3000/person
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-21T054016.200.json
+
+###
+
+GET http://localhost:3000/person/count
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-08-21T053935.200.json
+
+###
+
